@@ -1,0 +1,48 @@
+.catalog {
+    padding: 0 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.catalogItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    max-width: 360px;
+    min-width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #979797;
+    padding: 10px;
+
+    display: grid;
+    grid-template-rows: 20px 1fr auto auto auto;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    label {
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    input {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,61 @@
+.item {
+}
+
+.img {
+    width: 100%;
+
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.category {
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 26px;
+    text-align: right;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    display: block;
+    border: 1px solid #d5f2d5;
+    background: #ebf6eb;
+    border-radius: 10px;
+    color: #3baa35;
+    justify-self: flex-end;
+
+    &:hover {
+        border: 1px solid #3baa35;
+        background: #ebf6eb;
+    }
+}
+
+.buttonDis {
+    cursor: default;
+    background: #f7f7f7;
+    border-color: #eeeded;
+    color: #b9b9b7;
+
+    &:hover {
+        background: #f7f7f7;
+        border-color: #eeeded;
+        color: #b9b9b7;
+    }
+}
